@@ -1,0 +1,12 @@
+.menu{ 
+    background-color: red;
+    height: 100px;
+    width: 100%;
+}
+.letra{
+    display: flex;
+    justify-items: right;
+    width: 50%;
+
+}
+

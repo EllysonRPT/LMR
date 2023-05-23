@@ -1,0 +1,50 @@
+body {
+    background-color: rgb(170, 165, 165);
+    margin: 0;
+}
+
+.nav {
+    background-color: rgba(98, 176, 243, 0.623);
+    width: 100%;
+    height: 120px;
+    display: flex;
+    /*organiza o tipo de texto*/
+    justify-content: space-between;
+    /*centralização horizontal*/
+    align-items: center;
+    /*centralização vertical*/
+}
+
+
+.nav img {
+    height: 70px;
+}
+
+.nav .linkMenu {
+    text-decoration: none;
+    /*RETIAR COR DO LINK*/
+    font-size: 24PX;
+    color: black;
+}
+
+.menu {
+    text-decoration: none;
+    background-color: chocolate;
+    display: flex;
+    width: 100%;
+    height: 3vh;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+.pesquisa{
+    background-color: gray;
+    margin-top: -1.6%;
+    width: 100%;
+    height: 25px;
+    margin-left: 0%;
+    margin-right: 10%;
+    display: flex;
+}
+
+
+

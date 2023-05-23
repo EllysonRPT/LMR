@@ -1,0 +1,237 @@
+body {
+    margin: 0%;
+    background-color: rgb(155, 220, 155);
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.navSobre {
+    background-color: rgb(4, 58, 16);
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navSobre img {
+    height: 100%;
+}
+
+.navSobre .links a {
+    width: 30%;
+    color: rgb(109, 214, 109);
+    text-decoration: none;
+    justify-content: space-evenly;
+}
+
+/* SOBRE NÓS */
+.historia {
+    width: 100%;
+    height: 50vh;
+    margin-left: 5%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 2%;
+}
+
+.historia .caixaTexto {
+    width: 13%;
+    height: 80px;
+    background-color: rgb(12, 65, 12);
+    display: flex;
+    align-items: center;
+}
+
+.historia .caixaTexto h1 {
+    margin-left: 5%;
+}
+
+.historia h1 {
+    color: green;
+}
+
+.historia img {
+    width: 30%;
+    height: 200px;
+    align-items: center;
+}
+
+.texto {
+    width: 50%;
+    height: px;
+    margin-left: 5%;
+    margin-bottom: 200px;
+}
+
+.texto h3 {
+    color: green;
+    margin-left: 30%;
+}
+
+.texto h4 {
+    color: green;
+}
+
+.texto .missao img {
+    margin-left: 15%;
+}
+
+.texto .nossoCafe img {
+    margin-left: 15%;
+}
+
+/* HOME */
+.b1 {
+    margin: 0;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.banner img {
+    width: 100%;
+}
+
+.novidades {
+    margin-top: 20px;
+    background-color: rgb(132, 194, 202);
+    height: 150px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    font-weight: bold;
+}
+
+.primeiro {
+    margin-top: 20px;
+    height: 600px;
+    background-color: rgb(132, 194, 202);
+    display: flex;
+    align-content: space-evenly;
+}
+
+.primeiro img {
+    height: 100%;
+    width: 50%;
+}
+
+.texto1 {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    font-weight: bold;
+}
+
+.segundo {
+    margin-top: 20px;
+    height: 400px;
+    background-color: rgb(132, 194, 202);
+    display: flex;
+    align-content: space-evenly;
+}
+
+.segundo img {
+    height: 100%;
+    width: 50%;
+}
+
+.texto2 {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    text-align: center;
+}
+
+.terceiro {
+    margin-top: 20px;
+    height: 400px;
+    background-color: rgb(132, 194, 202);
+    display: flex;
+    align-content: space-evenly;
+    margin-bottom: 20px;
+}
+
+.terceiro img {
+    height: 100%;
+    width: 50%;
+}
+
+.texto3 {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    text-align: center;
+}
+
+.navSobre {
+    background-color: rgb(4, 58, 16);
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navSobre img {
+    height: 100%;
+}
+
+.navSobre .links a {
+    width: 30%;
+    color: rgb(109, 214, 109);
+    text-decoration: none;
+    justify-content: space-evenly;
+}
+
+/* PROCURA */
+
+.b2 {
+    margin: 0;
+    margin-left: 10%;
+    margin-right: 10%;
+    background-color: rgba(49, 158, 49, 0.466);
+
+}
+
+.menu {
+    margin-top: -1%;
+    background-color: green;
+}
+
+.pesquisa {
+
+    width: 100%;
+    height: 3vh;
+    display: flex;
+    justify-content: left;
+    margin-left: 1%;
+}
+
+.titulo {
+    margin-top: 0%;
+    margin-left: 1%;
+}
+
+.endereco {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+
+    margin-right: 10%;
+
+}
+
+.endereco img {
+    align-items: center;
+    width: 70%;
+    height: 100vh;
+
+}
+
+.letras {
+    margin-left: 1%;
+
+
+}

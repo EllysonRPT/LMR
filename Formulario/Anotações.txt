@@ -1,0 +1,7 @@
+forms
+label
+input = entrada
+radio
+checkbox
+types= button text passsword submit reset
+select > option
