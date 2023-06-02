@@ -1,4 +1,17 @@
-body{
+body.index{
 background: #59a098;   
 } 
+a{
+    text-decoration: none;
+    color: black;
+}
+.card1{
+    background-color: coral;
+}  
+.card2{
+    background-color: rgb(95, 255, 80);
+}  
+.card3{
     
+    background-color: rgb(80, 185, 255);
+}  
