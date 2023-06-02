@@ -1,6 +1,6 @@
 function enviar() {
     
-
+    let cep
     let nome
     let endereço
     let email
@@ -13,8 +13,14 @@ function enviar() {
     Remail = document.getElementById("Remail").value;
     senha = document.getElementById("senha").value;
     Rsenha = document.getElementById("Rsenha").value;
+    cep = document.getElementById("cep").value;
+
     if (nome=="") {
         alert("prenecha seu nome ");
+        return false;
+    }
+    if (cep=="") {
+        alert("prenecha o cep ");
         return false;
     }
     else if (endereço=="") {

@@ -1,6 +1,23 @@
-body.index{
-background: #59a098;   
+.index{
+    background: rgb(3,148,0);
+    background: radial-gradient(circle, rgba(3,148,0,0.3225665266106442) 0%, rgba(22,57,153,0.3617822128851541) 100%);
 } 
+.login{
+    background: rgb(63,94,251);
+    background: radial-gradient(circle, rgba(63,94,251,0.47942927170868344) 0%, rgba(70,252,103,0.3113620448179272) 100%);
+}
+.produto{
+    background: rgb(10,175,162);
+    background: linear-gradient(0deg, rgba(10,175,162,1) 0%, rgba(31,73,179,0.5494572829131652) 100%);
+}
+.contato{
+    background: rgb(10,175,162);
+    background: linear-gradient(0deg, rgba(10,175,162,1) 0%, rgba(31,73,179,0.5494572829131652) 100%);
+}
+.cadastro{
+    background: rgb(242,7,7);
+    background: linear-gradient(90deg, rgba(242,7,7,0.258140756302521) 0%, rgba(0,212,255,0.17970938375350143) 100%);
+}
 a{
     text-decoration: none;
     color: black;
@@ -15,3 +32,7 @@ a{
     
     background-color: rgb(80, 185, 255);
 }  
+.container-fluid  {
+    display: contents
+   ; 
+}
