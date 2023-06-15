@@ -1,13 +1,13 @@
 function enviar() {
     
     let cep
-    let nome
+
     let endereço
     let email
     let Remail
     let senha;
     let Rsenha;
-    nome = document.getElementById("nome").value;
+  
     endereço = document.getElementById("endereço").value;
     email = document.getElementById("email").value;
     Remail = document.getElementById("Remail").value;
@@ -15,10 +15,6 @@ function enviar() {
     Rsenha = document.getElementById("Rsenha").value;
     cep = document.getElementById("cep").value;
 
-    if (nome=="") {
-        alert("prenecha seu nome ");
-        return false;
-    }
     if (cep=="") {
         alert("prenecha o cep ");
         return false;
@@ -36,7 +32,7 @@ function enviar() {
         return false;
     }
     else if (email != Remail) {
-        alert("a confirmação não coincide ");
+        alert("a confirmação do email não coincide ");
         return false;
     }else if (senha!=Rsenha) {
         alert("a confirmação da senha não coincide ");
